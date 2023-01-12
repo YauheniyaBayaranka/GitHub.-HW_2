@@ -1,0 +1,32 @@
+                                                                  *** git clone git@github.com:YauheniyaBayaranka/GitHub.-HW_2.git
+1. На локальном репозитории сделать ветки для:
+- Postman                                                          *** git branch Postman                 
+- Jmeter                                                           *** git branch Jmeter
+- CheckLists                                                       *** git branch CheckLists
+- Bag Reports                                                      *** git branch BagReportsgit 
+- SQL                                                              *** git branch SQL
+- Charles                                                          *** git branch Charles
+- Mobile testing                                                   *** git branch Mobiletesting
+
+2. Запушить все ветки на внешний репозиторий                       *** git push -u origin Postman
+3. В ветке Bag Reports сделать текстовый документ со структурой баг репорта
+4. Запушить структуру багрепорта на внешний репозиторий
+5. Вмержить ветку Bag Reports в Main                               *** git merge BagReports
+6. Запушить main на внешний репозиторий.                           *** vigit push -u origin main
+7. В ветке CheckLists набросать структуру чек листа.               ***  vim check_list.txt
+
+8. Запушить структуру на внешний репозиторий                       *** git push -u origin CheckLists
+
+                                                                   *** git add checklist.txt - добавили файл под гит
+                                                                   *** git commit -m "add 1 file" - закоммитили файл
+                                                                   *** git push - запушили документ на внешний реозиторий
+
+9. На внешнем репозитории сделать Pull Request ветки CheckLists в main
+
+                                                                  *** заходим в репозиторию "Branches"
+                                                                  *** нажимаем на кнопку " "Compare & pull request""
+                                                                  *** нажимаем на кнопку "Create pull request"
+                                                                  *** нажимаем на кнопку "Merge pull request" -> "Confirm request"
+
+10. Синхронизировать Внешнюю и Локальную ветки Main               *** git checkout main
+                                                                  *** git pull
